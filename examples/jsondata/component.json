@@ -1,0 +1,20 @@
+[
+  {
+    "lang": "zh-CN",
+    "demo-block": {
+      "hide-text": "隐藏代码",
+      "show-text": "显示代码",
+      "button-text": "在线运行",
+      "tooltip-text": "前往 codepen.io 运行此示例"
+    },
+    "header": {
+      "guide": "指南",
+      "components": "组件",
+      "theme": "模板",
+      "resource": "Github"
+    },
+    "nav": {
+      "dropdown": "版本："
+    }
+  }
+]

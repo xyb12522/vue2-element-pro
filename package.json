@@ -1,0 +1,53 @@
+{
+  "name": "@vue2/element-pro",
+  "version": "0.1.1",
+  "description": "A Vue.js 2.0 UI Toolkit for Web based on Element-UI",
+  "main": "lib/element-pro.umd.min.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib src/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.1",
+    "throttle-debounce": "^3.0.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "algoliasearch": "^4.8.6",
+    "babel-eslint": "^10.1.0",
+    "d3": "^7.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "highlight.js": "^10.7.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyb12522/vue2-element-pro"
+  },
+  "keywords": [
+    "vue",
+    "element",
+    "components"
+  ],
+  "author": "bob",
+  "license": "ISC"
+}

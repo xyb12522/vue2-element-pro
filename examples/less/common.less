@@ -1,0 +1,62 @@
+:root {
+  --title1-color: #1f2f3d;
+  --pro-text-color: #5e6d82;
+  --pro-green: #69db7c;
+  --pro-red: #D92b2f;
+}
+
+// 路由视野高度
+.content {
+  box-sizing: border-box;
+  overflow: auto;
+  height: calc(100vh - 120px);
+}
+.content::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 0px;     /*高宽分别对应横竖滚动条的尺寸*/
+}
+
+.pro-title {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--title1-color);
+}
+
+.pro-sub-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--title1-color);
+}
+
+.pro-bottom {
+  margin-bottom: 20px;
+}
+
+.pro-text {
+  padding: 20px;
+  font-size: 14px;
+  color: var(--pro-text-color);
+  line-height: 1.5em;
+}
+
+.pro-red-tips {
+  color: var(--pro-red);
+}
+
+.pro-code {
+  .hljs {
+    line-height: 1.8;
+    font-family: Menlo,Monaco,Consolas,Courier,monospace;
+    font-size: 12px;
+    padding: 18px 24px;
+    background-color: #fafafa;
+    border: 1px solid #eaeefb;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    -webkit-font-smoothing: auto;
+  }
+}
+
+a {
+  color: var(--pro-green);
+  text-decoration: none;
+}
