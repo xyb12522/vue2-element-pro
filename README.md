@@ -9,7 +9,7 @@
 1.安装element-pro
 
 ```shell
-yarn add @vue/element-pro
+yarn add @zingbo/vue2-element-pro
 ```
 
 2.使用前，必须确保已经（yarn add element-ui）先引入element-ui
@@ -26,9 +26,9 @@ Vue.use(ElementUI);
 
 ``` js
 // 引入element-pro
-import ElementPro from "@vue2/element-pro";
-import "@vue2/element-pro/lib/element-pro.css";
-Vue.use(import ElementPro from "@vue2/element-pro";
+import ElementPro from "@zingbo/vue2-element-pro";
+import "@zingbo/vue2-element-pro/lib/element-pro.css";
+Vue.use(import ElementPro from "@zingbo/vue2-element-pro";
 );
 ```
 

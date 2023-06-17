@@ -10,8 +10,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
 // 测试打包后的element-pro
-import elementpro from '../lib/element-pro.umd.js';
-import '../lib/element-pro.css';
+import elementpro from '../lib/vue2-element-pro.umd.js';
+import '../lib/vue2-element-pro.css';
 Vue.use(elementpro);
 
 // 本地引入测试组件

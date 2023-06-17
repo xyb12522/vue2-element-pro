@@ -1,5 +1,5 @@
 {
-  "name": "@vue2/element-pro",
+  "name": "@zingbo/vue2-element-pro",
   "version": "0.1.1",
   "description": "A Vue.js 2.0 UI Toolkit for Web based on Element-UI",
   "main": "lib/element-pro.umd.min.js",
